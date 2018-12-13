@@ -1,0 +1,252 @@
+*{
+  margin:0;
+  padding:0;
+}
+#content-dt{
+  width:1200px;
+  margin:0 auto;
+}
+ul{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+#content-dt .nav-dt{
+  margin-top:20px;
+  height:55px;
+}
+#content-dt .nav-dt ul{
+  margin-left:50px;
+}
+#content-dt .nav-dt ul li{
+  float:left;
+  color:#666;
+  font-size:12px;
+}
+#content-dt .details{
+  width:1000px;
+  height:760px;
+  margin-left:50px;
+}
+#content-dt .left-d{
+  width:600px;
+  height:433px;
+  float:left;
+  position:relative; 
+}
+#content-dt .left-d .left-img{
+  width:600px;
+  height:433px;
+  border:1px solid #ddd;
+  overflow:hidden;
+}
+#content-dt .left-d .left-img img{
+  width:600px;
+  height:433px;
+}
+/*#content-dt .left-d div.left-img img:target{
+  display:block;
+} */
+/*放大镜*/
+#content-dt .mask{
+  width:300px;
+  height:216.5px;
+  position:absolute;
+  top:0;
+  left:0;;
+  background:#000;
+  opacity:0.5;
+  display:none;  
+}
+#content-dt .super-mask{
+  width:600px;
+  height:433px;
+  position:absolute;
+  top:0;
+  left:0;
+}
+#content-dt .div-lg{
+  width:600px;
+  height:433px;
+  position:absolute;
+  top:0;
+  left:610px;
+  display:none;
+  background:url(../img/d-1.jpg) no-repeat;
+  background-size:1100px 830px;
+}
+/*右边*/
+#content-dt .right-d{
+  width:300px;
+  height:720px;
+  float:left;
+  margin-top:40px;
+  margin-left:40px;
+}
+#content-dt .right-d h3,#content-dt .right-d h4{
+  font-weight:normal;
+}
+#content-dt .right-d h3{
+  font-size:24px;
+  color:#000;
+}
+#content-dt .right-d .match{
+  margin-top:20px;
+}
+#content-dt .right-d h4.glass,#content-dt .right-d h4.color{
+  margin-top:20px;
+}
+#content-dt .right-d div.choose-img{
+  margin-top:20px;
+  margin-bottom:28px;
+  width:240px;
+  height:104px;
+}
+#content-dt .choose-img img{
+  width:77px;
+  height:51px;
+  display:block;
+  box-sizing:border-box;
+  float:left;
+}
+#content-dt .choose-img img:hover{
+  border:1px solid #000;
+}
+#content-dt .right-d .sum{
+  display:block;
+  font-size:16px;
+  margin-top:24px;
+  margin-bottom:5px;
+}
+#content-dt .right-d strong{
+  font-size:28px;
+  font-weight:normal;
+}
+#content-dt .right-d input.add{
+  width:240px;
+  height:50px;
+  background:#1e1e1e;
+  color:#fff;
+  outline:none;
+  border:none;
+  margin-top:18px;
+  font-size:15px;
+}
+/*手风琴*/
+#content-dt>div.cards{
+  margin-top:30px;
+  width:240px;
+}
+#content-dt div.card p{
+  font-size:14px;
+  color:#333;
+}
+#content-dt div.card-header{
+  width:240px;
+  height:40px;
+  line-height:40px;
+}
+#content-dt div.card-body{
+  width:240px;
+  height:40px;
+  padding:0;
+  padding-bottom:5px;
+  display:none;
+}
+#content-dt div.brand-info{
+  margin-top:40px;
+}
+#content-dt .brand-info img{
+  width:35px;
+  height:30px;
+  margin-left:20px;
+}
+
+
+
+/*商品细节和评论*/
+#section-dt>.tabs{
+  width:1000px;
+  height:2860px;
+  margin:0 auto;
+}
+#section-dt>.tabs>ul>li{
+  float:left;
+  cursor:pointer;
+}
+#section-dt>.tabs>ul>li>a{
+  display:inline-block;
+  width:80px;
+  height:40px;
+  text-align:center;
+  line-height:40px;
+  border:1px solid #ddd;
+  padding:10px;
+}
+#section-dt>.tabs>ul>li>a.good-deta{
+  border-right:0;
+  color:red;
+  font-weight:bold;
+  border-top:3px solid red;
+}
+#section-dt>.tabs>div.tab-con{
+  position:relative;
+}
+#section-dt>.tabs>.tab-con>div{
+  position:absolute;
+  top:60px;
+  width:1000px;
+  height:2860px;
+  border:1px solid #ddd;
+}
+#tab-con1{
+  background:#fff;
+  text-align:center;
+}
+#tab-con1 img{
+  width:790px;
+  height:822px;
+}
+#tab-con1 img:first-child{
+  height:666px;
+}
+#tab-con1 img:last-child{
+  height:1360px;
+}
+#tab-con2{
+  background:#fff;
+}
+#content-dt .tabs ul li a.cli{
+  color:red;
+  font-weight:bold;
+  border-top:3px solid red;
+}
+/*可能喜欢*/
+#content-dt div.maybe-like{  
+  margin-top:165px;
+}
+#content-dt .maybe-like h2{
+  font-size:15px;
+  line-height:50px;
+  margin-top:30px;
+  text-align:center;
+  font-weight:normal;
+}
+#content-dt .maybe-like div.ml-img{
+  width:1000px;
+  height:225px;
+  margin:0 auto;
+  overflow:hidden;
+  position:relative;
+}
+#content-dt .maybe-like .ml-img img{
+  width:285px;
+  height:190px;
+}
+#content-dt .maybe-like img.ml-left,#content-dt .maybe-like img.ml-right{
+  width:20px;
+  height:38px;
+  position:absolute;
+  top:93px;
+}

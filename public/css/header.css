@@ -1,0 +1,123 @@
+*{
+  margin:0;
+  padding:0;
+}
+#content{
+  width:1200px;
+  margin:0 auto;
+}
+ul{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+  color:#161618;
+}
+#header span{
+  color:#fff;
+  font-size:30px;
+  line-height:30px;
+  position:absolute;
+}
+#header h3{
+  color:#fff;
+  font-size:18px;
+  position:absolute;
+}
+/*网页头部*/
+.head{
+  height:42px;
+  width:1200px;
+  line-height:42px;
+  background:#fff;
+  font-size:15px;
+  position:fixed; 
+  z-index:100;
+  text-align:center;
+}
+.ul-left{
+  float:left;  
+  margin-left:10px;
+}
+.ul-left b{
+  padding-left:14px;
+  padding-right:14px;
+}
+.ul-right{
+  float:right;
+  margin-right:10px;
+}
+.ul-right .after{
+  display:none;
+}
+.ul-left li,.ul-right li{
+  float:left;
+}
+.ul-right li{
+  padding-left:4px;
+}
+.img1{
+  margin-top:3px;
+}
+.img2{
+  margin-top:8px;
+}
+/*logo*/
+.logo{
+  height:43px;
+  padding-top:42px; 
+  text-align:center;
+}
+.logo img{
+  width:175px;
+  height:28px;
+}
+/*导航栏*/
+.nav{
+  height:53px;
+  font-size:14px;
+  color:#111111;
+  line-height:53px;
+  position:relative;
+}
+.nav ul{
+  margin-left:355px; 
+}
+.nav ul li{
+   width:38px;
+   height:43px;
+   float:left;
+   margin-right:60px;
+   text-align:center;
+}
+.nav ul li:hover{
+  border-bottom:1px solid #000;
+}
+/*下拉列表*/
+.glass-list{
+  width:1000px;
+  height:400px;
+  background:rgba(277,277,277);
+  position:absolute;
+  top:44px;
+  left:75px;
+  display:none;
+  z-index:100;
+  padding:39px 0 140px 0;
+  margin:0 auto;
+  padding-left:80px;
+}
+.glass:hover .glass-list{
+  display:block;
+}
+.glass-list div{
+  width:140px;
+  height:35px;
+  float:left;
+  text-align:left;
+}
+
+/*.glass-list div p:first-child{
+  font-size:15px;
+  font-weight:bold;
+} */

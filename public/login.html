@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>登录/注册</title>
+  <link rel="stylesheet" href="css/login.css">
+  <script src="js/common.js"></script>
+  <script src="js/jquery-1.11.3.js"></script>
+ </head>
+ <body>
+  <div id="content">
+   <!--网页头部-->
+   <div id="header">
+	 </div>
+   <!--中间-->
+	 <div id="section">
+     <div id="bread">
+       <ul>
+         <li><a href="#" class="one">首页</a>></li>
+         <li><a href="#">我的账户</a>></li>
+         <li><a href="#">登录</a></li>
+       </ul>
+     </div>
+		 <div class="log">
+       <table>
+			   <tr>
+           <td class="section-one">登录</td>
+         </tr> 
+         <tr>
+           <td>
+             <p class="first-line">
+						   我的BOLON<br>
+               输入您的手机号或者电子邮箱及密码登录“我的账户”
+						 </p>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <input type="text" class="uname" placeholder="手机号" id="phone">
+             <p class="log-phone"></p>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <input type="password" class="upwd" placeholder="密码" id="upwd">
+             <p class="log-upwd"></p>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <input type="checkbox" checked>记住我的密码
+           </td>
+         </tr>
+         <tr>
+           <td class="log-two">
+             <input type="button" value="登录" class="bt" onclick="getLog()">
+						 <a href="#" class="forget">忘记密码</a>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <p class="second-line">第三方账号登录</p>
+             <a href="#"><img src="img/log-01.jpg" alt=""></a>
+             <a href="#"><img src="img/log-02.jpg" alt=""></a>
+             <a href="#"><img src="img/log-03.jpg" alt=""></a>
+           </td>
+         </tr>  
+       </table>
+		 </div>
+     <div class="res">
+       <table>
+         <tr>
+           <td class="section-one">注册</td>
+         </tr>
+         <tr>
+           <td>
+             <p class="first-line">
+               新用户<br>
+               立即填写详细会员信息享受专属礼遇
+             </p>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <p class="second-line">注册用户专享服务：</p>
+             <p class="third-line">
+               ·使用收藏夹保存心仪商品<br>
+               ·通过“我的账户”查看个人信息<br>
+               ·完成购物流程更快捷
+             </p>
+           </td>
+         </tr>
+         <tr>
+           <td>
+             <button data-toggle="modal" class="res-one">注册</button>
+           </td>
+         </tr>
+       </table>
+      </form>
+      <div class="modal">
+                   <div class="modal-content">
+                      <div class="modal-header">
+                       <button class="close">&times;</button>
+                      </div>
+                      <div class="modal-body">
+                      <form id="form1">
+                       <table>
+                         <tr>
+                           <td>
+                             <h3>立即注册</h3>
+                             <p>*必填</p>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>
+                              <input type="text" placeholder="*手机号码" class="res-1" id="rphone">
+                              <div class="info" id="showPhone">
+                                请输入正确的手机号码
+                              </div><span ></span>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>
+                             <input type="text" value="获取验证码" class="res-3">
+                             <input type="text" placeholder="*验证码" class="res-2" name="code">
+                             <div class="info">
+                               请输入四位数的验证码
+                             </div>
+                           </td>  
+                         </tr>
+                         <tr>
+                           <td>
+                             <input type="password" placeholder="*新密码" class="res-4" name="rupwd" id="rupwd">
+                             <div class="info">
+                               请输入6位的密码
+                             </div>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>
+                             <input type="password" placeholder="*确认新密码" class="res-5" name="rupwd1">
+                             <div class="info">
+                               请再次输入6位的密码
+                             </div>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>
+                             <p class="res-6">
+                               注册服务<br>
+                               注册一个账号称为会员，您将获得更多关于品牌的专属服务，同时您能通过此账号购买您所心仪的产品。并将关注的商品分享至任意社交媒体上。
+                             </p>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>
+                             <input type="checkbox" checked>我已阅读并同意
+                             <a href="#">《BOLON会员注册协议》</a>
+                           </td>
+                         </tr>
+                         <tr>
+                           <td>
+                             <input type="button" value="确定" class="res-7" onclick="register()">
+                           </td>
+                         </tr>
+                       </table> 
+                      </form>                      
+                      </div>
+                   </div>
+             </div>
+     </div>
+	 </div>
+   <div class="bg"></div>
+   <div id="footer"></div>
+	 </div>
+  </div>
+  <script src="js/login.js"></script>
+  <script src="js/register.js"></script>
+  <script src="js/header.js"></script>
+  <script src="js/footer.js"></script>
+ </body>
+</html>

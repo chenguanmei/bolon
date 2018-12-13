@@ -1,0 +1,163 @@
+*{
+  margin:0;
+  padding:0;
+}
+#content{
+  width:1200px;
+  margin:0 auto;
+}
+ul{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+.ds-img{
+  width:1200px;
+  height:350px;
+  position:relative;
+}
+.ds-img img{
+  width:1200px;
+  height:350px;
+}
+.ds-img ul{
+  position:absolute;
+  top:30px;
+  left:30px;
+}
+.ds-img ul li{
+  float:left;
+}
+.ds-img ul li a{
+  color:#333;
+  font-size:12px;
+}
+/*选择*/
+#d-section div.card{
+  width:1000px;
+  margin:0 auto;
+  padding-top:20px;
+  padding-bottom:16px;
+}
+#d-section .card div.card-header{
+  border-bottom:2px solid #000;
+  padding-top:30px;
+  padding-bottom:15px;
+  position:relative;
+}
+#d-section .card-header .clearAll{
+  position:absolute;
+  right:10px;
+}
+#d-section .card-header .selects{
+  position:absolute;
+  left:40px;
+  top:24px;
+}
+#d-section .card-header li{
+  list-style:none;
+  float:left;
+  height:20px;
+  background:#ddd;
+  border-radius:5px;
+  padding:5px 10px;
+  margin-right:10px;
+}
+#d-section .card div.c{
+  border-bottom:2px solid #000;
+  padding-top:30px;
+}
+#d-section .card div.card-body{
+  border-bottom:2px solid #000;
+  padding-bottom:294px;
+  height:95px;
+}
+#d-section .card-body div{
+  float:left;
+  margin-left:55px;
+  margin-right:55px; 
+}
+#d-section .card-body div p{
+  font-size:18px;
+  font-weight:bold;
+}
+#d-section .card-body div ul li{
+  margin-top:7px;
+  font-size:15px;
+}
+#d-section .card-body div ul li:hover{
+  font-weight:bold;
+  background:#e8e8e8;
+  border-radius:10px;
+}
+/*眼镜列表*/
+#d-section div.show-gla{
+  width:1000px;
+  height:1100px;
+  margin:20px auto;
+  position:relative;
+}
+.p-list{
+  width:1000px;
+  height:1030px; 
+  margin:0 auto;
+}
+.p-list div.g-list{
+  float:left;
+  width:310px;
+  height:300px;
+  margin:20px 10px;
+  text-align:center;
+  position:relative;
+}
+.p-list>div.g-list a p{
+  margin-bottom:10px;
+}
+.p-list div.g-list a img{
+  width:280px;
+  height:200px;
+}
+.p-list div.g-list .see{
+  position:absolute;
+  display:block;
+  width:80px;
+  height:30px;
+  line-height:30px;
+  border-radius:10px;
+  margin-top:10px;
+  background:#000;
+  color:white;
+  left:115px;
+  padding:5px 10px;
+}
+/*分页*/
+#d-section div.show-gla ul{
+   position:absolute; 
+   right:20px; 
+   bottom:20px; 
+}
+#d-section div.show-gla ul li{
+  float:left;
+}
+#d-section div.show-gla ul li a{
+  padding:5px 10px;
+  border:1px solid #ddd;
+  border-right:0px;
+}
+#d-section div.show-gla ul li:first-child a{
+  border-radius:5px 0 0 5px;
+}
+#d-section div.show-gla ul li:last-child a{
+  border-right:1px solid #ddd;
+  border-radius:0 5px 5px 0;
+}
+.active{
+  color:white;
+  background:#ddd;
+}
+.ell{
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+}

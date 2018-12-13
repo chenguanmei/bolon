@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+}
+#container{
+    width:1200px;
+    margin:0 auto;
+}
+#c-section .s-title{
+    width:100%;
+    height:32px;
+    border-bottom:1px solid #ddd;
+}
+#c-section table{
+    width:1100px;
+    height:200px;
+    margin:0 auto;
+    margin-top:30px;
+    border:1px solid #ddd;
+    border-collapse: collapse;
+    text-align:center;
+} 
+#c-section table tr{
+    border:1px solid #ddd;
+}
+#c-section table thead{
+    height:50px;
+    line-height:50px;
+}
+#c-section table .select{
+    display:block;
+    margin-top:-35px;
+    margin-left:30px;
+}
+#c-section table .selAll,#c-section table .selAllf,#c-section table tbody .sel{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top:10px;
+    margin-left:10px;
+}
+#c-section table tbody .count{
+    width:20px;
+    height:20px;
+    text-align:center;
+}
+#c-section table tbody .del{
+    width:60px;
+    height:30px;
+}
+#c-section table tbody .bt{
+    width:24px;
+    height:24px;
+}
+#c-section table tbody img{
+    width:85px;
+    height:80px;
+}
+#c-section table tfoot tr{
+    height:50px;
+    line-height:50px;
+}
+#c-section table .cal{
+    width:80px;
+    height:45px;
+}
+#c-section table .title{
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    font-size:16px;
+}
+#c-section table .color,#c-section table .mu,#c-section table .style{
+    color:gray;
+    font-size:14px;
+}
+#c-section table .total,#c-section table .sum{
+    color:#ff7c09;
+}
+#c-section table .add{
+    color:gray;
+    font-size:14px;
+}
+

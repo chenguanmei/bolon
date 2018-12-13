@@ -1,0 +1,242 @@
+*{
+  margin:0;
+  padding:0;
+}
+a{
+  text-decoration:none;
+}
+#header{
+  border-bottom:1px solid gray;
+}
+#section{
+  width:1200px;
+  height:806px;
+  margin:0 auto;
+  position:relative;
+}
+/*头部*/
+#bread{
+  height:1174px;
+  height:86px;
+  padding-top:35px;
+  box-sizing:border-box;
+  padding-left:15px;
+}
+#bread ul li{
+  float:left;
+}
+#bread ul li a{
+  color:#666;
+  font-size:12px;
+}
+#bread ul li a.one{
+  color:#333;
+}
+/*登录*/
+.log,.res{
+  float:left; 
+  width:575px;
+  height:720px;
+  background:#ededed;
+  padding-left:25px;
+  margin-left:14px;
+  box-sizing:border-box;
+}
+.section-one{
+  border-bottom:1px solid #fff;
+  font-size:22px;
+  padding-top:28px;
+  padding-bottom:18px;
+}
+.first-line{
+  width:518px;
+  font-family:h35s,"Microsoft YaHei";
+  font-size:16px;
+  color:#909090;
+  margin-top:40px;
+  margin-bottom:80px;
+}
+.uname,.upwd{
+  width:518px;
+  height:35px;
+  line-height:35px;
+  font-size:15px;
+  background:#fff;
+  margin-bottom:10px;
+  padding-left:15px;
+  box-sizing:border-box;
+  outline:none;
+}
+.bt{
+  width:243px;
+  height:50px;
+  background:#000;
+  color:#fff;
+  border:none;
+  margin-top:80px;
+  font-size:16px;
+}
+.forget{
+  font-size:15px;
+  color:#333;
+  margin-left:20px;
+  margin-bottom:0px;
+  text-decoration:underline;
+}
+.log-two{
+  border-bottom:1px solid #fff;
+  padding-bottom:40px;
+}
+.log img{
+  width:50px;
+  float:left;
+  margin-right:23px;
+}
+.log p.second-line{
+  margin-top:30px;
+  margin-bottom:20px;
+}
+.log-phone,.log-upwd{
+  font-size:10px;
+  color:red;
+  margin-bottom:10px;
+  margin-left:5px;
+}
+/*注册*/
+.res{
+   margin-left:20px; 
+}
+.res-one{
+  width:245px;
+  height:52px;
+  line-height:52px;
+  text-align:center;
+  border:1px solid #000;
+  background:#ededed;
+  font-size:16px;
+  margin-top:106px;
+  margin-bottom:135px;
+  outline:none;
+}
+.res-one:hover{
+  background:#000;
+  color:#fff;
+}
+.second-line{
+  margin-bottom:10px;
+  font-size:15px;
+}
+.third-line{
+  font-size:15px;
+  line-height:24px;
+}
+/*模态框*/
+#section .modal{
+  width:700px;
+  height:630px;
+  background:#fff;
+  color:#666;
+  z-index:300;
+  position:absolute;
+  top:50px;
+  left:200px;
+  display:none;
+}
+#section .modal h3{
+  color:#666;
+  font-size:16px;
+  margin-bottom:10px;
+  margin-top:0;
+  font-weight:normal;
+}
+#section .modal p{
+  font-size:14px;
+  margin-bottom:30px;
+}
+#section .modal .close{
+  width:15px;
+  height:15px;
+  margin-left:680px;
+}
+#section .modal button{
+  background:#fff;
+  border:none;
+  font-size:25px;
+}
+#section .modal table{
+  margin:15px 20px;
+}
+#section .modal div.modal-body{
+  margin-top:35px;
+}
+#section .modal table tr td div{
+  font-size:13px;
+  margin-top:-18px;
+  margin-bottom:2px;
+}
+#section .modal div.modal-body{
+  padding:0 100px;
+  box-sizing:border-box;
+}
+.res-1,.res-2,.res-3,.res-4,.res-5{
+  outline:none;
+  background:none;
+  padding-left:10px;
+  width:492px;
+  height:36px;
+  margin-bottom:25px; 
+  font-size:14px;
+  line-height:30px;
+  border:1px solid #000;
+  box-sizing:border-box;
+}
+#section .modal input.res-2{
+  width:322px;
+  height:36px;
+  margin-left:15px;
+}
+#section .modal input.res-3{
+  width:150px;
+  height:36px;
+  background:#000;
+  color:#fff;
+  text-align:center;
+}
+#section .modal p.res-6{
+  font-size:14px;
+  margin-bottom:20px;
+  color:#717171;
+}
+#section .modal input.res-7{
+  width:227px;
+  height:42px;
+  margin-top:40px;
+  margin-bottom:25px;
+  background:#000; 
+  color:#fff;
+  font-size:16px;
+  line-height:42px;
+  text-align:center;
+  outline:none;
+  border:none;
+}
+.bg{
+  width:2000px;
+  height:2000px;
+  background:#000;
+  opacity:0.7;
+  z-index:200;
+  position:absolute;
+  top:0;
+  left:0;
+  display:none;
+}
+.info{
+  display:none;
+}
+.vali_success{
+  color:green;
+}
+.vali_fail{
+  color:red;
+}
